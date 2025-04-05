@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Credits</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="grid-block1">
+            <img src="img/logo.png" class="grid-block1__logo" alt="Error!">
+            <h1 class="grid-block1__logo">CashZilla</h1>
+            <div class="grid-block1__container">
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="Credits.html">Кредити</a></li>
+                    <li><a href="Info.html">Інформація</a></li>
+                    <li><a href="Blog.html">Блог</a></li>
+                </ul>
+            </div>
+        </header>
+        <main class="grid-block2">
+            <p class="grid-block2__text2"><span>Шановний клієнте!</span>
+
+                Ми раді повідомити Вам, що Ви можете оформити кредит в нашому банку за дуже вигідними умовами. Ми
+                пропонуємо широкий вибір кредитних продуктів, які відповідають потребам будь-якої категорії клієнтів.
+
+                Наші кредити доступні на різний термін, від 6 місяців до 5 років, із можливістю погашення у зручний для
+                Вас спосіб. Ми пропонуємо конкурентні ставки, низьку комісію за видачу кредиту та багато інших переваг.
+
+                Для того, щоб оформити кредит, Вам потрібно <span>подати заявку</span>. Ми надаємо можливість оформити
+                кредит онлайн, для чого Вам необхідно <span>заповнити спеціальну форму</span> на нашому сайті.
+
+                Будь ласка, зверніть увагу, що під час оформлення кредиту ми будемо звертати увагу на Ваші фінансові
+                можливості та кредитну історію, щоб забезпечити максимальний рівень захисту Ваших фінансових інтересів.
+
+                Не втрачайте часу та скористайтеся можливістю отримати кредит від нашого банку за вигідними умовами.
+
+            </p>
+            <hr>
+            <aside>
+                <form>
+                    <div class="grid-block2__labelCredit">
+                        <div class="grid-block2__label">
+                            <label for="credits">Вибір кредитів:</label>
+                            <select name="credits" id="credits">
+                                <option value="">Кредит на житло</option>
+                                <option value="">Кредит на ремонт</option>
+                                <option value="">Кредит на відпустку</option>
+                                <option value="">Кредит на весілля</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="grid-block2__label">
+                        <label for="date">Дата та час:</label>
+                        <input type="datetime-local" id="date" name="date" required>
+                    </div>
+                    <div class="grid-block2__label">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="grid-block2__label">
+                        <label for="phone">Телефон:</label>
+                        <input type="tel" id="phone" value="+380" name="phone" pattern="[0-9]{0}" required>
+                        <small>Телефон у форматі: +380*********</small>
+                    </div>
+                    <div class="grid-block2__label">
+                        <label for="file-upload">Фото паспорту з 2-х сторін:</label>
+                        <input type="file" id="file-upload" name="file-upload">
+                    </div>
+                    <button type="submit" class="grid-block2__label" style="margin-bottom: 15px;">Відправити</button>
+                </form>
+            </aside>
+            <div class="additional-container__faq">
+                <div class="additional-container__faq-item">
+                    <input class="additional-container__faq-input" type="radio" name="container" id="faq_1">
+                    <label class="additional-container__faq-title" for="faq_1">Слава Україні!</label>
+                    <div class="additional-container__faq-text">
+                        <p>Героям слава!</p>
+                    </div>
+                </div>
+        
+                <div class="additional-container__faq-item">
+                    <input class="additional-container__faq-input" name="container" type="radio" id="faq_2">
+                    <label class="additional-container__faq-title" for="faq_2">Декілька секретів про млинці</label>
+                    <div class="additional-container__faq-text">
+                        <p>Для приготування млинців найкраще підходить пшеничне борошно. Але якщо ви віддаєте перевагу пухким млинцям, тоді борошно можна використовувати вівсяне або гречане.
+                            Щоб уникнути появи грудочок, борошно додавайте невеликими порціями, постійно помішуючи.
+                            Для того, щоб млинці вийшли дуже ніжними, борошно слід просіяти 2–3 рази.
+                            Вода — основа для тонких і міцних млинців, але млинці, приготовані на молоці, значно смачніші. Змішайте молоко і воду — вийдуть щільні і смачні.
+                            Якщо спекти млинці на кефірі, то вони вийдуть пишні. Той же ефект ви отримаєте, якщо зробите млинчики з дріжджового тіста.
+                            Бажано мати окрему сковорідку для випічки млинців.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="grid-block3">
+            <div class="grid-block3__footer1">
+                <h3>Контактні данні:</h3>
+                <p style="margin-bottom: 0; margin-top: 5px;">&#9742 +380672135672</p>
+                <p style="margin: 0;">&#9993 CashZilla@gmail.com</p>
+            </div>
+            <div class="grid-block3__footer2">
+                <h3>Місце знаходження:</h3>
+                <p style="margin-bottom: 0; margin-top: 5px;">&#x1F4CD Україна, м. Полтава,</p>
+                <p style="margin: 0;">вул. Головка 5, корпус 2</p>
+            </div>
+        </footer>
+        <div class="square"></div>
+    </div>
+</body>
+
+</html>
